@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!--  br: break the line
+      select: give the list item to select ont from it
+      input: taking input from user
+      -->
+    <h2>Student Registration Form</h2>
+    <form action="">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Password: <input type="password" name="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female <br><br>
+        Courses:
+        <select name="Courses">
+            <option> HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+        </select> <br><br>
+        DOB:
+        <input type="date" name="DOB"><br><br>
+        <h2><input type="Submit" value="Register"></h2> 
+        <h2><input type="reset" value="Reset"></h2> 
+        
+
+    </form>
+
+    <h2>Audio</h2>
+    <audio controls>
+        <source src="keyboard-typing-sound-effect-335503.mp3"   type="audio/mpeg">
+   </audio>
+   <h2>Video</h2>
+    <video controls>
+        <source src="keyboard-typing-sound-effect-335503.mp4"   type="video/mp4">
+    </video>
+</body>
+</html>
