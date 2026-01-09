@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT EmployeeDetails (Employee)*>
+<!ELEMENT Employee (Employeecode, EmployeeName, DOJ, TotalExperience, Department, Designation, Salary, Grade)>
+<!ELEMENT Employeecode (#PCDATA)>
+<!ELEMENT EmployeeName (FirstName, LastName)>
+<!ELEMENT FirstName (#PCDATA)>
+<!ELEMENT LastName (#PCDATA)>
+<!ELEMENT DOJ (#PCDATA)>
+<!ELEMENT TotalExperience (#PCDATA)>
+<!ELEMENT Department (Unit,Loc)>
+<!ELEMENT Unit (#PCDATA)>
+<!ELEMENT Loc (#PCDATA)>
+<!ELEMENT Designation (#PCDATA)>
+<!ELEMENT Salary (#PCDATA)>
+<!ELEMENT Grade (#PCDATA)>

@@ -1,0 +1,83 @@
+<!-- -------------cardinality oprators----------- -->
+
+'*'-> 0 or more
+'+'-> 1 or more
+'?'-> 0 or 1
+
+
+<!-- ----------------Entity-------------  -->
+
+> -&gt;
+< -&lt;
+' -&apos;
+" -&quot;
+
+
+<!-- ------------types of elements---------------- -->
+
+1. text-only
+2. child  only
+3. mixed
+4. empty 
+5. any
+
+
+1. text only
+    <!element studentName (#PCDATA)>
+
+    <studentName> Sakshi </studentName>
+
+2. child
+    <!ELEMENT name (firtsName | LastName)>
+
+    <name>
+    <firtsName>Sakshi</firtsName>
+    <LastName>Pandey</LastName>
+    </name>
+
+3. mixed
+
+<!ELEMENT name (#PCDATA | firtsName | LastName)>
+
+    <name>
+    Sakshi Pandey
+    <firtsName>Sakshi</firtsName>
+    <LastName>Pandey</LastName>
+    </name>
+
+4. empty
+
+<!ELEMENT name (empty)>
+
+    <name>
+    <!-- Sakshi Pandey
+    <firtsName>Sakshi</firtsName>
+    <LastName>Pandey</LastName> -->
+    there should not be any text in name tag as it declared empty
+    </name>
+
+5. any
+
+
+
+<!-- ---------Data Types--------------- -->
+    CDATA
+    ENUMERATED
+    ID
+    IDREF,IDREFS
+    NMTOKEN,NMTOKENS
+    NOTATION
+
+<!-- -----------------ATTRIBUTES-------------  -->
+
+syntax: <!ATTLIST element attribute datatype specifier>
+<!ATTLIST address type CDATA #REQUIRED> cdata-> character data
+
+
+<!-- -----------ATTRIBUTES SPECIFIERS----------- -->
+
+    #REQUIRED
+    #IMPLIED
+    #FIXED
+    default
+

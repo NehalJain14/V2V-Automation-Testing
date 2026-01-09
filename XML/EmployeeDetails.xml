@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE EmployeeDetails SYSTEM "EmployeeDetails.dtd">
+<EmployeeDetails>
+	<Employee>
+		<Employeecode>emp-56789</Employeecode>
+		<EmployeeName>
+			<FirstName>Sakshi</FirstName>
+			<LastName>Pandey</LastName>
+		</EmployeeName>
+		<DOJ>23/12/2025</DOJ>
+		<TotalExperience>01 Years</TotalExperience>
+		<Department>
+		<Unit>4a</Unit>
+		<Loc>Pune</Loc>
+		</Department>
+		<Designation>4</Designation>
+		<Salary>30000</Salary>
+		<Grade>b</Grade>
+	</Employee>
+		<Employee>
+		<Employeecode>emp-1234</Employeecode>
+		<EmployeeName>
+			<FirstName>Rashi</FirstName>
+			<LastName>Pandey</LastName>
+		</EmployeeName>
+		<DOJ>23/12/2025</DOJ>
+		<TotalExperience>00</TotalExperience>
+		<Department>
+		<Unit>3a</Unit>
+		<Loc>Mumbai</Loc>
+		</Department>
+		<Designation>4</Designation>
+		<Salary>20000</Salary>
+		<Grade>a</Grade>
+	</Employee>
+</EmployeeDetails>
